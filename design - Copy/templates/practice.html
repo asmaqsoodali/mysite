@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<!--[if lte IE 7]><html id="ie" class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 8]><html id="ie8" class="no-js lt-ie10 lt-ie9" lang="en" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if IE 9]><html id="ie9" class="no-js lt-ie10" lang="en" xmlns="http://www.w3.org/1999/xhtml"><![endif]-->
+<!--[if gt IE 9]><!--><html lang="en" class="no-js" xmlns="http://www.w3.org/1999/xhtml"><!--<![endif]-->
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<link rel="dns-prefetch" href="//video-transcripts.findlaw.com"/>
+	<link rel="dns-prefetch" href="//ajax.googleapis.com"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<link rel="stylesheet" href="/design/css/site.css"/>
+	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,300,700,900|Yesteryear"/>
+	<!--[if IE]>
+		<link href="http://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css" /.>
+		<link href="http://fonts.googleapis.com/css?family=Yesteryear:400" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://video-transcripts.findlaw.com/includes/scripts/html5Shiv-3.6.2.js"></script>
+	<![endif]-->
+	<#assign SEMFirmNameAlt = " - ${site.data.SEMFirmNameAlt}">
+    <#if site.data.SEMFirmNameAlt = "">
+        <#assign SEMFirmNameAlt = "">
+    </#if>
+    
+</head>
+<body class="design ${page.ID} ${page.sectionTop} practice ${page.section}" itemscope="itemscope" itemtype="http://schema.org/Attorney">
+	<meta content="${site.data.firmName}" itemprop="name"/>
+	<div class="navigation-wrap">
+		<div class="container-nav">
+			<nav id="nav-main" class="nav-main" data-bp="750" role="navigation">
+				<ul>
+					<li class="item-first"><a href="/">Home</a></li>
+					<li><a href="/Firm-Overview.shtml">Firm Overview</a></li>
+					<li><a href="/Attorney/">Attorney</a></li>
+					<li><a href="/Articles/">Articles</a></li>
+					<li class="item-last"><a href="/Contact.shtml">Contact </a></li>
+				</ul>
+			</nav>
+			<div id="containerSearchFormDesign">
+				<script type="text/javascript" src="/includes/searchFormDesignCheck.js"></script>
+				<script type="text/javascript" src="/includes/autofillFSP.js"></script>
+				<form action="/Search-Results.shtml" method="get" name="searchFormDesign" id="searchFormDesign">
+					<label for="searchFormDesignSearchTerms">Site Search</label>
+					<input name="stext" type="text" id="searchFormDesignSearchTerms" title="Search our site"/>
+					<input type="image" src="/design/images/searchFormDesignSubmit.gif" id="searchFormDesignSubmit" class="over" name="searchFormDesignSubmit" value="Search" alt="Search"/>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="header-wrap">
+		<header class="header-page">
+			<div class="brand-wrap">
+				<a href="/" class="brand"><img src="/design/images/brand.png" alt="${site.data.firmName}${SEMFirmNameAlt}"/></a>
+				<div class="brand-tag">Board Certified Civil Trial Lawyer</div>
+			</div>
+			<div class="cta">
+				<div class="cta-text">Call Florida Attorney <span>Dana J. Watts Today!</span></div>
+				<div class="cta-phone">941-404-7053 <strong>|</strong> 800-599-3181</div>
+			</div>
+		</header>
+	</div>
+	<div class="tagline-prac-wrap">
+		<div class="tagline-prac"><h4>Helping Clients Across the Legal Bridge!</h4></div>
+	</div>
+	<div class="nav-practice-wrap">
+		<div class="container-practice">
+			<nav class="nav-practice fl-drop">
+				<ul>
+					<li class="navi-pers"><a href="/Personal-Injury/">Personal Injury</a>
+						<div id="indexPersonal-Injury" fsp="design"></div>
+					</li>
+					<!-- <li class="navi-prem"><a href="/Premises-Liability/">Premises Liability</a>
+						<div id="index/Premises-Liability" fsp="design"></div>
+					</li>
+					<li class="navi-pers"><a href="/Personal-Injury/Serious-Injuries/">Serious Injuries </a>
+						<div id="indexSerious-Injuries" fsp="design"></div>
+					</li> -->
+					<li class="navi-cons"><a href="/Construction-Business-Law/">Construction<br/>  &amp; Business Law</a>
+						<div id="indexConstruction-Business-Law" fsp="design"></div>
+					</li>
+					<li class="navi-medi"><a href="/Mediation.shtml">Mediation</a></li>
+				</ul>
+			</nav>
+			<h1 class="page-title"><div id="FSPpageTitle" fsp="pageTitle"></div></h1>
+		</div>
+	</div>
+	<div class="container-page">		
+		<div class="container-columns">			
+			<div class="container-column-main">
+				<div class="column-main" role="main">
+					<article class="content">
+						<div id="FSPcontent" fsp="content"></div>
+					</article>
+				</div>
+			</div>
+			<div class="column-side" role="complementary">
+				<div class="atto-img-wrap">
+					<div class="atto-img">
+					</div>
+				</div>
+				<div class="container-affiliations">
+					<img src="/design/images/affliation-logo.png" class="affliation-logo" alt="The Florida Bar Board Certified Civil Trial"/>
+					<h4>Board Certified<br/> Civil Trial Lawyer</h4>
+					<p>Dana Watts is a board certified civil trial lawyer by the Florida Bar Board of Legal Specialization with more than 30 years of litigation experience. He also received an AV* peer review rating through Martindale-Hubbell. <a href="/Attorney/Dana-J-Watts.shtml">Learn More</a></p>
+					<img src="/design/images/logoAV.png" class="logoAV" alt="Distinguished TM AV Lexis Nexis Martindale Hubbell Peer Review Rated For Ethical Standard And Legal Ability
+"/>
+					<img src="/design/images/logo-peer.png" class="logo-peer" alt="Peer Review Rated For Ethical Standard And Legal Ability Bar Register Of Preeminent Lawyers Martindale-Hubbell LexisNexis"/>
+				</div>
+				<div class="short-form">
+					<h4 class="title-short-form">questions?</h4>
+					<div id="Short-Form" fsp="design"></div>
+				</div>
+				<div class="container-contact">
+					<div class="contact-map"> 
+						<img src="/design/images/map-direction.png" class="map-direction" alt="Map and Direction"/> 
+						<a href="/Contact.shtml">Quick Contact</a> 
+					</div>
+					<div class="contact-info">
+						<h4 class="title-contact">Contact Our Firm</h4>
+						<div id="FSPcontactInformation" fsp="design"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-wrap">
+		<footer class="footer-page">
+			<div class="container-brand">
+				<a href="/" class="footer-logo"><img src="/design/images/footer-logo.png" alt="Dana J. Watts Attorney at Law"/></a>
+				<div class="cta-footer">
+					941-404-7053 | 800-599-3181
+				</div>
+			</div>
+			<aside class="geography">
+				<div id="FSPgeographicalFooter" fsp="design"></div>
+			</aside>
+			<section class="fine-print clearfix">
+				<p class="copyright">&#169; <!--#config timefmt="%Y" --><!--#echo var="DATE_LOCAL" --> by <a href="http://pview.findlaw.com/cmd/view?wld_id=${site.data.WLDID}&amp;pid=1" target="_blank">${site.data.firmName}</a><#if !site.data.firmName?ends_with(".")>.</#if> All rights reserved. <a href="/Disclaimer.shtml">Disclaimer</a> | <a href="/Site-Map.shtml">Site Map</a></p>
+				<p class="branding"><!--#include virtual="/includes/branding.shtml" --></p>
+			</section>
+		</footer>
+	</div>
+	<div class="back-top">
+		<a href="#" class="btn-back-to-top">Back To Top</a>
+	</div>
+	<!--[if lt IE 9]>
+		<script src="http://video-transcripts.findlaw.com/includes/scripts/respond-1.1.0.js"></script>
+	<![endif]-->
+	<script>var highlightOptions = { pageID: '${page.ID}', pageSection: '${page.section}', pageSectionTop: '${page.sectionTop}' }</script>
+	<script src="http://video-transcripts.findlaw.com/includes/scripts/flDefault-1.0.0.js"></script>
+	<script src="/design/scripts/flScripts-1.0.1.js"></script>
+	<script src="/design/scripts/init.js"></script>
+</body>
+</html>
